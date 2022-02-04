@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>Hobbies</title>
+  </head>
+  <body>
+    <article>
+    <h1>Hobbies</h1>
+    <h3>Know more about hobbies and find your favorites ...</h3>
+      <section>
+        <label for="hobbyTypes">What kind of hobbies do you like to do or know about:</label>
+            <select name="hobbyTypes" id="hobbyTypes" required>
+              <option value="" disabled selected hidden>Select...</option>
+              <option value="general">General</option>
+              <option value="collection">Collection</option>
+              <option value="competition">Competition</option>
+              <option value="observation">Observation</option>
+              <option value="sports_and_outdoors">Sports and outdoors</option>
+              <option value="education">Education</option>
+            </select>  
+        <button id=chooseHobbyTypeBtn>Find</button>
+        <br/>
+        <label for="randomHobbyBtn">Or, know about a random hobby:</label>
+        <button id=randomHobbyBtn>Random hobby</button>
+    
+    <div id="hobby" class="hobby">
+    </div>
+  </section>
+  </article>
+  <footer>
+    <small>copyright &copy; 2022. all rights reserved.</small>
+  </footer>
+    <script src="https://unpkg.com/boxicons@2.1.1/dist/boxicons.js"></script>
+    <script src="./scripts.js"></script>
+  </body>
+</html>
